@@ -6,9 +6,9 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'about.html'
 })
 export class AboutPage {
-
+  tilte = 'Bui Duc Tai is so handsome!!!'
   constructor(public navCtrl: NavController) {
-
+    console.log(this.tilte);
   }
 
 }
